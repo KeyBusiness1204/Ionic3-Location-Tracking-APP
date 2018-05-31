@@ -1,0 +1,38 @@
+
+.ios, .md {
+    
+    page-home {
+      .scroll {
+        height: 100%
+      }      
+    
+      
+    .action-sheet-wrapper {
+      width: 50%;
+    }  
+
+    .ion-content{
+      color: white;
+    }
+
+    .title{
+      padding-left: 7px;
+      color: white;  
+    }
+    .toolbar-title-ios {
+      color: white;
+      margin-left: 30%;
+    }
+
+    @media screen and (min-width:768px) and (max-width:1024px) {
+      .toolbar-title-ios{
+        margin-left: 11%;
+      }
+      
+    }
+  }
+}
+
+.item-ios.item-block .item-inner{
+    border-bottom:0px solid #c8c7cc;
+}

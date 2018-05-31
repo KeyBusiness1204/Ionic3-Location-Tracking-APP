@@ -1,0 +1,40 @@
+<ion-header>
+  <ion-navbar>
+        <ion-title>Setting</ion-title>
+  </ion-navbar>
+</ion-header>
+ 
+<ion-content (ionViewWillEnter)= 'ionViewWillEnter();'>
+    <p class="title">User Information</p>
+    <ion-list>
+        <ion-item>
+            <ion-label>User Name :</ion-label>
+            <ion-label class="set">{{this.username}}</ion-label> 
+        </ion-item>
+        <ion-item>
+            <ion-label>Email :</ion-label>
+            <ion-label id='email' class="set">{{this.email}}</ion-label> 
+        </ion-item>
+    </ion-list>
+    <p class="title">Track Setting</p>
+    <ion-list>
+        <button ion-item (click)="openPage('interval')">
+            <ion-label>Track Interval </ion-label>
+            <ion-label class="set">{{this.interval}}</ion-label> 
+        </button>
+        <button ion-item (click)="openPage('timeout')">
+            <ion-label>Track Timeout :</ion-label>
+            <ion-label class="set">{{this.timeout}}</ion-label> 
+        </button>
+        <button ion-item (click)="openPage('gps')">
+            <ion-label>GPS Power :</ion-label>
+            <ion-label class="set">{{this.accuracy}}</ion-label> 
+            </button>
+        <button ion-item (click)="openPage('help')"> 
+            <ion-label>Help Online </ion-label>>
+        </button>
+        <button ion-item (click)="openPage('reset')">
+            <ion-label>Reset</ion-label>
+        </button>
+    </ion-list>   
+</ion-content>

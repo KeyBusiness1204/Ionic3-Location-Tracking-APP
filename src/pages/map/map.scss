@@ -1,0 +1,151 @@
+page-map {
+    .button-ios{
+        height: 31px;
+        margin: 0.3rem 0rem;
+        padding: 0 0.4em;
+    }
+
+    .button-ios img{
+        // margin-left: 10px;
+        width: 25px;
+        // height: 17px;
+    }
+
+    .icon{
+        font-size: 1.2em;
+    }
+    #map {
+        width: 100%;
+        height: 100%;       
+    }
+    #safe{
+        width: 50px;
+        margin-left: 20px;
+        position: absolute;
+        bottom: 33px;
+    }
+    #share_toggle{
+        margin-top: 3px;
+        float: left;
+        margin-left: 30px;
+        
+    }
+    .toggle-ios.toggle-checked .toggle-icon{
+        
+        background-color: #00b4df;
+    }
+    #toggle_title{
+        color: white;
+        padding-left: 8px;
+        margin-right: 40px;
+        float: left;
+    }
+    .clock{
+        margin-top: 3px;
+        width: 30px;
+        height: 30px;
+        float: left;
+        
+    }
+    #time{
+        float: right;
+        color: white;
+        margin-right: 10px;
+    }
+
+    @media screen and (min-width:768px) and (max-width:1024px) {
+        #safe{
+            width: 50px;
+            margin-left: 350px;
+            // position: absolute;
+            bottom: 55px;
+            display: inline-block;
+            z-index: 9999999;          
+        }
+        #share {
+             margin-top: 35px;
+        }
+        .toolbar-title-ios{
+            margin-left: 40px;
+        }
+        .clock{
+            float: right;
+            margin-right: 50px;
+        }
+    }
+
+  @media screen and (min-width: 414px) and (max-width: 736px) {
+     #safe{
+      width: 50px;
+      margin-left: 177px;
+      position: absolute;
+      bottom: 55px;
+    }
+
+    .clock{
+        margin-left: 90px;
+    }
+  }
+
+    @media screen and (min-width:375px) and (max-width:413px) {
+        #safe{
+            width: 50px;
+            margin-left: 157px;
+            position: absolute;
+            bottom: 55px;
+        }
+        #time{
+
+            margin-right: 60px;
+        }
+
+        .toolbar-title-ios{
+            margin-left: 30px;
+        }
+
+    }
+    @media screen and (min-width:320px) and (max-width:374px) 
+    {
+        #safe{
+            margin-left: 128px;
+            width: 47px;
+            bottom: 45px;
+        }
+        .button-md {
+            font-size: 1.0rem;
+            height: 1.6rem;
+        }
+        .button-ios {
+            height: 22px;
+        }
+    }   
+
+    // @media screen and (min-width:412px) and (max-width:666px) {    
+             
+    //     #safe {
+    //         width: 50px;
+    //         margin-left: 180px;
+    //         position: absolute;
+    //         bottom: 70px;
+    //     }
+
+    //     #bt{
+    //         margin-right: 11px;
+    //     }
+    // }
+    //   @media screen and (min-width:360px) and (max-width:374px) 
+    // {
+    //     #safe{
+    //         margin-left: 157px;
+    //         width: 47px;
+    //         bottom: 50px;
+    //     }
+    //     .button-md {
+    //         font-size: 1.0rem;
+    //         height: 2.5rem;
+    //     }
+    //     .button-ios {
+    //         height: 22px;
+    //     }
+    // }  
+}

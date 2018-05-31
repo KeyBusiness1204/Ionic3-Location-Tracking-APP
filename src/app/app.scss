@@ -1,0 +1,128 @@
+// http://ionicframework.com/docs/theming/
+
+
+// App Global Sass
+// --------------------------------------------------
+// Put style rules here that you want to apply globally. These
+// styles are for the entire app and not just one component.
+// Additionally, this file can be also used as an entry point
+// to import other Sass files to be included in the output CSS.
+//
+// Shared Sass variables, which can be used to adjust Ionic's
+// default Sass variables, belong in "theme/variables.scss".
+//
+// To declare rules for a specific mode, create a child rule
+// for the .md, .ios, or .wp mode classes. The mode class is
+// automatically applied to the <body> element in the app.
+ion-list.menu-bt button{
+    background-color:black;
+    opacity:0.5;
+    margin: 5px;
+    color: white;
+    border-radius: 10px;
+}
+
+ion-content{
+    background: url('../assets/background.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;    
+}
+* {
+    font-family: 'Muli', sans-serif;
+    // font-size: 1.4rem;
+}
+
+.menu-header{
+    color: white;
+    margin-left: 7%;
+    height: 27%;    
+}
+.label-ios img{
+    width: 22px;
+}
+
+.label-ios i,ion-icon{
+    margin-left: 5px;    
+}
+.e-mail{
+    float: right;
+    margin-right: 15px;
+    margin-top: 75px;
+    font-size: 15px;
+}
+
+.user-avatar {
+    padding: .5em;
+    height: 20vh;
+    border: white solid 5px; 
+    padding: 0px;
+    margin-top: 1.5em;
+}
+
+.setting{
+    padding-left: 7px;
+    color: white;
+}
+.set{
+    color: white;
+    margin-right: -150px;
+}
+#email{
+    padding-left: 0px;
+    margin-left: -330px;
+}
+@media screen and (min-width:768px) and (max-width:1024px) {
+    .menu-header{
+        margin-left: 8%;
+        height: 20%;
+    }
+    #email{
+        padding-left: 0px;
+        margin-left: 0px;
+    }
+    .set{
+        padding-left: 375px;
+    }
+
+    .user-avatar {       
+        height: 12vh;
+    }
+}
+@media screen and (min-width:320px) and (max-width:374px) 
+{    
+    ion-list.menu-bt button {           
+        margin: -4px;
+    }
+}
+
+.round {
+    border-radius: 50%;
+}
+
+.toolbar-background{
+    background: black;
+    opacity: 0.3;
+}
+.bar-button-default-ios, .bar-button-default.bar-button-ios-default, .bar-button-clear-ios-default {
+    color: white;
+}
+
+.toolbar-title-ios{
+    color: white;
+}
+
+.toolbar-ios{
+    min-height: 40px;
+}
+
+.item-ios{
+    color : white;
+    background: black;
+    opacity: 0.5;
+    border-radius: 5px;
+    margin: 3px;
+}
+
+.text-ios-primary{
+    color: white;
+}

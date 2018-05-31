@@ -1,0 +1,13 @@
+page-detail-img {
+    .ion-trash-b{
+        float: right;
+        margin-right: 5px;
+    }
+
+    @media screen and (min-width:320px) and (max-width:374px) 
+    {    
+        .toolbar-title-ios{
+            font-size: 13px;
+        }
+    }
+}

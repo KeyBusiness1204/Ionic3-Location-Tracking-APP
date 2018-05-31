@@ -1,0 +1,8 @@
+{
+  "name": "safekeeping",
+  "app_id": "6b9badef",
+  "type": "ionic-angular",
+  "integrations": {
+    "cordova": {}
+  }
+}

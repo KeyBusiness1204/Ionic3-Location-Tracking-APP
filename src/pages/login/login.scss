@@ -1,0 +1,393 @@
+page-login {
+        
+}
+
+.log_in{
+    height: 60px;
+    width: 464px;
+    left: 19%;
+    border-radius: 10px;
+    background-color: #488aff
+}  
+
+$loading-ios-background : #f8f8f8;
+
+ion-content.login_content{
+    background: url('../assets/bg.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.log_in .button-inner{
+    font-size: 30px;
+    .icon{
+        padding-right: 30px;
+    }
+    
+}
+.note{
+    color: white;
+    font-size: 25px;
+    margin-left: 25%;
+}
+.next_note{
+    color: white;
+    font-size: 25px;
+    margin-left: 12%;
+    a{
+        color:white;
+    }
+}
+.last_note{
+    color: white;
+    font-size: 25px;
+    margin-left: 35%;
+    a{
+        color:white;
+    }
+}
+
+.bt_content{
+    margin-top:71%;
+}
+
+.no-scroll{
+    .scroll-content {
+        overflow: hidden !important;
+    }
+}
+
+#login_title{
+    font-size: 71px;
+    color: white;
+    margin-left: 156px;
+    margin-top: 50px;
+    font-weight: 900;
+}
+
+#loing_minititle{
+    font-size: 35px;
+    color: white;
+    margin-left: 193px;
+    margin-top: -35px;
+    font-weight: 500;
+}
+
+@media screen and (min-width:769px) and (max-width:1024px) {
+        
+    .bt_content{
+        margin-top: 50%;
+    }
+
+    .note{
+        margin-left: 31%;
+    }
+
+    .next_note{
+        margin-left: 21%;
+    }
+
+    .last_note{
+        margin-left: 39%;
+    }
+
+    .log_in{
+        left: 26%;             
+    }
+}
+
+@media screen and (min-width:375px) and (max-width:413px) {
+    #login_title{
+        font-size: 37px;
+        color: white;
+        margin-left: 63px;
+        margin-top: 35px;
+        font-weight: 900;
+    }
+
+    #loing_minititle{
+        font-size: 21px;
+        color: white;
+        margin-left: 63px;
+        margin-top: -16px;
+        font-weight: 400;
+    }
+        
+    .log_in .button-inner{
+        font-size: 20px;
+        .icon{
+            padding-right: 8px;
+        }
+        left: 26%;
+    }
+
+    .bt_content{
+        margin-top:98%;
+        .scroll-content {
+            overflow: hidden !important;
+        }
+    }
+
+    .log_in{       
+        left: 10%;     
+        bottom: 10px;
+        height: 40px;
+        width: 273px;           
+    }
+
+    .note{
+        font-size: 15px;
+        margin-left: 19%;
+    }
+
+    .next_note{
+        font-size: 14px;
+        margin-left: 2%;
+    }
+    .last_note{
+        font-size: 15px;
+        margin-left: 30%;
+    }
+}
+@media screen and (min-width:320px) and (max-width:359px) 
+{
+    #login_title{
+        font-size: 33px;
+        color: white;
+        margin-left: 45px;
+        margin-top: 40px;
+        font-weight: 900;
+    }    
+
+    #loing_minititle{
+        font-size: 19px;
+        color: white;
+        margin-left: 45px;
+        margin-top: -20px;
+        font-weight: 500;
+    }
+
+    .bt_content{
+        margin-top:98%;
+        .scroll-content {
+            overflow: hidden !important;
+        }
+    }
+
+    .log_in{       
+        left: 16%;
+        bottom: 0px;
+        height: 27px;
+        width: 197px;   
+    }
+    .log_in .button-inner {
+        font-size: 11px;
+    }
+
+    .note{
+        font-size: 13px;
+        margin-left: 18%;
+    }
+
+    .next_note{
+        font-size: 11px;
+        margin-left: 7%;
+    }
+    .last_note{
+        font-size: 11px;
+        margin-left: 35%;
+    }
+}
+
+@media screen and (min-width:667px) and (max-width:767px) {
+    
+       
+   .log_in .button-inner{
+       font-size: 20px;
+       .icon{
+           padding-right: 8px;
+       }
+       left: 26%;
+   }
+
+   .bt_content{
+       margin-top:36%;
+       .scroll-content {
+        overflow: hidden !important;
+    }
+   }
+
+   .log_in{       
+       left: 32%;     
+       height: 25px;
+       width: 240px;           
+   }
+
+   .note{
+       font-size: 15px;
+       margin-left: 33%;
+   }
+
+   .next_note{
+       font-size: 15px;
+       margin-left: 23%;
+   }
+   .last_note{
+        font-size: 15px;
+        margin-left: 38%;
+    }
+  }
+
+
+@media screen and (min-width: 414px) and (max-width: 666px) {
+    #login_title {
+      font-size: 37px;
+      color: white;
+      margin-left: 80px;
+      margin-top: 35px;
+      font-weight: 900;
+    }
+    #loing_minititle {
+      font-size: 21px;
+      color: white;
+      margin-left: 88px;
+      margin-top: -16px;
+      font-weight: 400;
+    }
+    .log_in .button-inner {
+      font-size: 20px;
+      left: 26%;
+    }
+    .log_in .button-inner .icon {
+      padding-right: 8px;
+    }
+    .bt_content {
+      margin-top: 107%;
+      margin-left: 4%;
+    }
+    .bt_content .scroll-content {
+      overflow: hidden !important;
+    }
+    .log_in {
+      left: 10%;
+      bottom: 10px;
+      height: 40px;
+      width: 273px;
+    }
+    .note {
+      font-size: 15px;
+      margin-left: 19%;
+    }
+    .next_note {
+      font-size: 15px;
+      margin-left: 2%;
+    }
+    .last_note {
+      font-size: 15px;
+      margin-left: 30%;
+    }
+  }
+
+
+// @media screen and (min-width:360px) and (max-width:411px) {    
+      
+//     #login_title{
+//         font-size: 33px;
+//         color: white;
+//         margin-left: 68px;
+//         margin-top: 40px;
+//         font-weight: 900;
+//     }    
+
+//     #loing_minititle{
+//         font-size: 19px;
+//         color: white;
+//         margin-left: 70px;
+//         margin-top: -16px;
+//         font-weight: 500;
+//     }
+
+//     .bt_content{
+//         margin-top: 100%;
+//         .scroll-content {
+//             overflow: hidden !important;
+//         }
+//     }
+
+//     .log_in{       
+//         left: 20%;
+//         bottom: -8px;
+//         height: 27px;
+//         width: 191px;
+
+//     }
+//     .log_in .button-inner {
+//         font-size: 11px;
+//     }
+
+//     .note{
+//         font-size: 13px;
+//         margin-left:23%;
+//     }
+
+//     .next_note{
+//         font-size: 11px;
+//         margin-left: 13%;
+//     }
+//     .last_note{
+//         font-size: 11px;
+//         margin-left: 35%;
+//     }
+// }
+
+
+
+// @media screen and (min-width:412px) and (max-width:666px) {    
+      
+//     #login_title{
+//         font-size: 42px;
+//         color: white;
+//         margin-left: 68px;
+//         margin-top: 40px;
+//         font-weight: 900;
+//     }    
+
+//     #loing_minititle{
+//         font-size: 23px;
+//         color: white;
+//         margin-left: 75px;
+//         margin-top: -16px;
+//         font-weight: 500;
+//     }
+
+//     .bt_content{
+//         margin-top: 100%;
+//         .scroll-content {
+//             overflow: hidden !important;
+//         }
+//     }
+
+//     .log_in{       
+//        left: 18%;
+//         bottom: -8px;
+//         height: 30px;
+//         width: 240px;
+//     }
+//     .log_in .button-inner {
+//         font-size: 15px;
+//     }
+
+//     .note{
+//         font-size: 15px;
+//         margin-left:23%;
+//     }
+
+//     .next_note{
+//         font-size: 13px;
+//         margin-left: 13%;
+//     }
+//     .last_note{
+//         font-size: 13px;
+//         margin-left: 35%;
+//     }
+// }

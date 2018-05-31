@@ -1,0 +1,24 @@
+<!--
+  Generated template for the UsersPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+  <ion-navbar>
+    <ion-title>My Friends</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+  <ion-list>
+    <ion-item *ngFor="let item of items" >
+      <ion-avatar item-start>
+        <img *ngIf="item" [src]="item.picture">
+      </ion-avatar>
+      <h2>{{item.username}}</h2>
+      <p>{{item.email}}</p>
+      <button ion-button clear item-end (click)="unFriend(item.id);">Unfriend</button>
+    </ion-item>
+  </ion-list>
+</ion-content>

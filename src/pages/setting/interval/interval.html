@@ -1,0 +1,24 @@
+<!--
+  Generated template for the IntervalPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+
+  <ion-navbar>
+   
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding>
+    <p class="setting">Interval</p>  
+    <ion-list radio-group>
+      <ion-item *ngFor="let interval of intervals">
+        <ion-label>{{interval.item}}</ion-label>
+        <ion-radio  checked="{{interval.checked}}"  value="{{interval.item}}" (ionSelect)="select(interval.item);"></ion-radio>
+      </ion-item>
+    </ion-list>      
+</ion-content>

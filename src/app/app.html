@@ -1,0 +1,48 @@
+<ion-menu swipeEnabled="false" type="overlay"  id="safe_menu" side="left" persistent="true" [content]="content" (ionOpen) ="profile();">
+    <ion-content>
+        <div class="menu-header" >                    
+            <img class="user-avatar round" *ngIf="userProfile" [src]="userProfile.picture" >
+            <p class="e-mail"  *ngIf="userProfile" >{{ userProfile.username }}</p>
+        </div>
+        <ion-list class="menu-bt">     
+                       
+            <!-- <button  ion-item   (click)="openPage('Location Track')">
+                <i class="icon ion-ios-home-outline "></i>
+                &nbsp; Home
+            </button>      -->
+            <button  ion-item   (click)="openPage('App Invite')">
+                    <i class="icon ion-social-facebook-outline"></i>
+                &nbsp;&nbsp;App Invite
+            </button>               
+            <button  ion-item   (click)="openPage('Add_Friend')">
+                <img src="assets/icon/add-friend.svg"/>
+                Add Friends
+            </button>
+            <button  ion-item   (click)="openPage('users')">
+                <img src="assets/icon/view-friends.svg"/>       
+                View Friends
+            </button>   
+            <button ion-item  (click)="openPage('Image Share')">
+                 <img src="assets/icon/library.svg"/>
+                SK library
+            </button>   
+            <button  ion-item   (click)="openPage('clear')">
+                <img src="assets/icon/clear_history.svg"/>
+               Clear History
+            </button>
+            <button  ion-item   (click)="openPage('Settings')">
+                <img src="assets/icon/setting.svg"/>                         
+               Settings
+            </button>             
+            <button  ion-item (click)="openPage('About SafeKeeping')">
+                <ion-icon name="ios-person-outline"></ion-icon>
+                About us
+            </button>
+            <button ion-item (click)="openPage('logout')">
+                <ion-icon name="log-out"></ion-icon>
+                Log out
+            </button>  
+        </ion-list>
+    </ion-content>
+</ion-menu>  
+<ion-nav #content [root]="rootPage"></ion-nav>
